@@ -1,6 +1,6 @@
 # renovate-config
 
-A Shareable Config Presets for Renovate
+A [Shareable Config Presets](https://docs.renovatebot.com/config-presets/) for [Renovate](https://www.mend.io/free-developer-tools/renovate/)
 
 ## Usage
 
