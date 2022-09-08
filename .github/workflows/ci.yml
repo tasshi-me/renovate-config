@@ -15,3 +15,11 @@ jobs:
       - run: npx --package renovate -c 'renovate-config-validator'
       - run: npx --package renovate -c 'renovate-config-validator default.json'
 
+  prettier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: current
+      - run: npx prettier --check .
