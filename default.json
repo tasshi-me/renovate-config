@@ -27,12 +27,8 @@
   "packageRules": [
     {
       // Third party actions should be pinned with digest
-      "matchDepTypes": [
-        "action"
-      ],
-      excludePackagePrefixes: [
-        "actions/"
-      ],
+      "matchDepTypes": ["action"],
+      "excludePackagePrefixes": ["actions/"],
       "pinDigests": true
     }
   ]
