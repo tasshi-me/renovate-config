@@ -8,7 +8,7 @@ Add `extends` property to your `renovate.json` as follows:
 
 ```json
 {
-  "extends": ["mshrtsr>cybozu/renovate-config"]
+  "extends": ["tasshi-me>cybozu/renovate-config"]
 }
 ```
 
