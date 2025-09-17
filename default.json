@@ -13,7 +13,6 @@
     ":automergeTypes",
     ":dependencyDashboard"
   ],
-  "minimumReleaseAge": "14 days",
   "rangeStrategy": "bump",
   "packageRules": [
     {
@@ -23,7 +22,8 @@
   ],
   "npm": {
     "extends": ["npm:unpublishSafe", "helpers:disableTypesNodeMajor"],
-    "postUpdateOptions": ["npmDedupe"]
+    "postUpdateOptions": ["npmDedupe"],
+    "minimumReleaseAge": "14 days"
   },
   "packageRules": [
     {
