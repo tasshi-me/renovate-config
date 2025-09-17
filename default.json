@@ -13,6 +13,7 @@
     ":automergeTypes",
     ":dependencyDashboard"
   ],
+  "minimumReleaseAge": "14 days",
   "rangeStrategy": "bump",
   "packageRules": [
     {
